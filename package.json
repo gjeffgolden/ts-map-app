@@ -1,0 +1,23 @@
+{
+  "name": "maps",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gjeffgolden/ts-map-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gjeffgolden/ts-map-app/issues"
+  },
+  "homepage": "https://github.com/gjeffgolden/ts-map-app#readme",
+  "dependencies": {
+    "@types/faker": "^5.5.6",
+    "faker": "^5.5.3"
+  }
+}
