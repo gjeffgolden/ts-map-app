@@ -1,12 +1,13 @@
 //by creating this class, allows us to reduce functionality from main Google Maps object
 
 //instructions to every other class on how to be an addMarker() argument
-interface Mappable {
+export interface Mappable {
     location: {
         lat: number,
         lng: number
     },
-    markerContent(): string
+    markerContent(): string,
+    color: string
 }
 
 export class CustomMap {
